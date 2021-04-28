@@ -60,7 +60,7 @@ for i in range(3):
 
 #  - zip(iterable*) : 동일한 개수로 이루어진 자료형들을 묶어 주는 역할을 하는 함수
 # . 두 자료형의 길이가 다르면 작은 길이의 자료형의 길이에 맞춰 묶어짐
-alpha = ['a','b','c']
+alpha = ['a','b','c'] 
 index = [1,2,3]
 alpha_index = zip(alpha,index) 
 print(alpha_index) # -> ('a',1),('b',2),('c',3) 각 value를 튜플 객체로 돌려줌, 딕셔너리나 리스트 형태로 사용가능
